@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/paper-art-moon-clouds_1340-35236.jpg?t=st=1695916166~exp=1695919766~hmac=d25195857ae31eeee1101f91a77590dc5d0895988c43c39b43b913fe78aae587&w=900');
+  }
+  
+  #weather-container {
+   
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    color: #4285f4;
+  }
+  
+  #location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #location-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #submit-btn {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a transition effect */
+  }
+  
+  #submit-btn:hover {
+    background-color: #3579e5; /* Change the background color on hover */
+  }
+  
+  #weather-info {
+    margin-top: 20px;
+  }
+  
+  #current-weather {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  #forecast-weather {
+    background-color: rgba(255, 255, 255, 0.3)
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #toggle-unit-btn {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a transition effect */
+  }
+  
+  #toggle-unit-btn:hover {
+    background-color: #3579e5; /* Change the background color on hover */
+  }
+  
